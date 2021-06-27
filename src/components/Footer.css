@@ -1,0 +1,40 @@
+.blank{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    height: 1px;
+    width: 80%
+}
+.Footer p{
+    color: white;
+}
+.Footer img{
+    width: 175px;
+    height: 39px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.details{
+    text-align: left;
+    margin-top: 40px;
+    color: white;
+}
+.about{
+    margin-top: 40px;
+    margin-left: 16px;
+}
+.head{
+    margin-top: 40px;
+    font-size: 20px;
+    opacity: .8;
+}
+.leg{
+    margin-top: 8px;
+    font-size: 13px;
+    opacity: .6;
+}
+.leg2, .leg3{
+    margin-top: 2px;
+    opacity: .6;
+    font-size: 13px;
+}

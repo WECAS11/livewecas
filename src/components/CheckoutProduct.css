@@ -1,0 +1,39 @@
+.checkout{
+    /* display: flex;
+    justify-content: space-evenly; */
+    margin: 30px;
+    border: 1px solid white;
+    align-items: center;
+    
+}
+.checkoutimg1{
+    height: 100px;
+}
+.checkimg{
+    height: 100px;
+    width: 100px;
+}
+.checkoutinfo{
+    margin: 15px;
+}
+.checkoutinfo button{
+    background-color: tomato;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+}
+/* ..................... */
+@media (min-width:1000px){
+    .checkout{
+        width: 500px;
+        height: 100px;
+    }
+    .checkout{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .checkoutimg1{
+        height: 80px;
+    }
+
+}

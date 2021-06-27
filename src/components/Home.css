@@ -1,0 +1,196 @@
+.blank{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    height: 2px;
+    width: 80%;
+    margin-left: 40px;
+}
+.products{
+    margin-top: 90px;
+    color: white;
+}
+.homeimg{
+    width: 100%;
+    height: 540px;
+}
+.tagline{
+    position: absolute;
+    top: 40%;
+    right: 18%;
+    z-index: 2;
+    color: rgb(255, 251, 0);
+    background-color: rgba(12, 1, 1, 0.404);
+    border-radius: 30%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.tagline{
+    font-size: 28px;
+    padding: 20px;
+}
+.tagline span{
+    color: rgb(250, 3, 250);
+}
+.ptag{
+    color: white;
+    text-align: center;
+    font-size: 37px;
+
+}
+.shirt{
+    margin-top: -43px;
+}
+.shirt img{
+    height: 300px;
+    width: 270px;
+    margin-top: 12px;
+    opacity: .7;
+}
+.shirt img:hover{
+    opacity: .5;
+    height: 320px;
+    width:280px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.pname{
+    position: relative;
+    top: -100px;
+    color: white;
+    font-size: 30px;
+    
+}
+.cartoon{
+    margin-top: -30px;
+}
+.cartoonimg{
+    width: 100%;
+    height: 250px;
+    opacity: 1;
+}
+.cb{
+    position: relative;
+    top: -250px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(243, 236, 236);
+    border: solid 1px black;
+    opacity: .7;
+    font-size: 20px;
+}
+.free{
+    
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+}
+.freebg{
+    width: 100%;
+    height: 25px;
+}
+.bq{
+    position: relative;
+    margin-bottom: 1px;
+    color: black;
+    font-weight: 600;
+    font-size: 20PX;
+    z-index: 2;
+    top: -125%;
+    right: 0%;
+
+}
+.fs{
+    margin-top: 1p;
+}
+.design{
+    margin-top: -10px;
+}
+.designed{
+    color: white;
+    margin-top: 13px;
+}
+.mypic{
+    background-color: rgb(207, 203, 203);
+    width: 300px;
+    height: 355px;
+    margin-left: 13%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.mypic img{
+    height: 250px;
+    width: 250px;
+    margin-top: 25px;
+}
+.vikas{
+
+    color: black;
+    margin-right: 140px;
+    font-family: 'Kirang Haerang', cursive;
+}
+/* .....................responsive for full screen..................................... */
+@media (min-width:1000px){
+    .blank{
+        margin-left: 145px;
+    }
+    .homeimg{
+        height: 900px;
+    
+    }
+    .tagline h1{
+        font-size: 70px;
+        padding: 20px;
+    }
+    .cartoonimg{
+        height: 400px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .shirt img{
+        height: 400px;
+        width: 400px;
+    }
+    .shirt img:hover{
+        opacity: .5;
+        height: 380px;
+        width:380px;
+        overflow: hidden;
+        transition: 1s;
+    }
+    .cb{
+        top: -800px;
+        font-size: 50px;
+        width: 300px;
+    }
+    .bq{
+        font-size: 30px;
+    color: black;
+    right: 0%;
+    top: -98.5%;
+    }
+    .free{
+        height: 50px;
+    }
+    .freebg{
+        height: 50px;
+    }
+    .mypic img{
+        height: 260px;
+    }
+    .mypic{
+        margin-left: 600px;
+    }
+    .tagline{
+        top: 25%;
+        right: 32.5%;
+    }
+    .tagline {
+        font-size: 70px;
+    }
+    
+    
+}

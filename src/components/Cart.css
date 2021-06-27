@@ -1,0 +1,22 @@
+/* .cart{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.cartright{
+    align-items: center;
+}
+.cartright p {
+ width: 100%;
+ height: 25px;
+ color: white;
+}
+.sub{
+    margin-left: 50px;
+}
+/* ............................................................................... */
+@media (min-width:1000px){
+    .cart{
+        display: flex;
+        justify-content: space-evenly;
+}
+}

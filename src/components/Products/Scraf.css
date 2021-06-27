@@ -1,0 +1,23 @@
+.scraf{
+    color: white;
+}
+.heading{
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+/* .................................................. */
+@media (min-width:1000px){
+ .scrafcontainer
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+} 
+.heading{
+    margin-top: 20px;
+}
+}

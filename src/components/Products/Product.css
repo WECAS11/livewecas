@@ -1,0 +1,27 @@
+.product{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 450px;
+    width: 80%;
+    border: white solid 5px;
+}
+.product img{
+    height: 280px;
+    width: 260px;
+    margin-top: 10px;
+}
+.dis{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    font-size: 30px;
+}
+.product button{
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.product button:hover{
+    background-color: yellowgreen;
+}
