@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/livewecas/static/css/main.5c8c1ad8.chunk.css",
-    "main.js": "/livewecas/static/js/main.37c6eb9b.chunk.js",
-    "main.js.map": "/livewecas/static/js/main.37c6eb9b.chunk.js.map",
+    "main.js": "/livewecas/static/js/main.af311738.chunk.js",
+    "main.js.map": "/livewecas/static/js/main.af311738.chunk.js.map",
     "runtime-main.js": "/livewecas/static/js/runtime-main.64e34674.js",
     "runtime-main.js.map": "/livewecas/static/js/runtime-main.64e34674.js.map",
     "static/js/2.addb4658.chunk.js": "/livewecas/static/js/2.addb4658.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.64e34674.js",
     "static/js/2.addb4658.chunk.js",
     "static/css/main.5c8c1ad8.chunk.css",
-    "static/js/main.37c6eb9b.chunk.js"
+    "static/js/main.af311738.chunk.js"
   ]
 }
