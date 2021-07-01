@@ -14,7 +14,7 @@ import Shipped from './components/Shipped';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div className="App">
       <Switch>
       <Route exact path='/'><Header/><Home/><Footer/></Route>
